@@ -1,0 +1,3 @@
+- Dynamic blocks in Terraform are only valid for defining `nested blocks` within a `resource`, and not for creating resources themselves. 
+- If you want to create multiple resources dynamically, you must use resource `for_each` or `count`.
+- Terraform's dynamic block is intended to make it easier to manage repeated configuration blocks inside a single resource.

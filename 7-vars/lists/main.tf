@@ -10,7 +10,7 @@ terraform {
   
 provider "aws" {
 	region  = "ap-south-1"
-	profile = "aws-staging"
+	profile = "aws-madhu"
 }
 
 resource "aws_instance" "example" {
